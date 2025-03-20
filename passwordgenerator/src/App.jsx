@@ -21,6 +21,7 @@ function App() {
       pass += str.charAt(char);
     }
     setPassword(pass);
+    console.log(lenth);
   }, [lenth, numberAllowed, charAllowed, setPassword]);
 
   const copyPasswordToClipboard = useCallback(() => {
